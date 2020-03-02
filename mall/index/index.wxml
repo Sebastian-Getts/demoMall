@@ -5,17 +5,30 @@
         image标签 mode: widthFix 
 
         e.g.原图750x340  设计为 高度自适应，宽度100% -->
-    <swiper autoplay indicator-active-color circular>
-        <swiper-item wx:for="{{swiperList}}" wx:key="{{goods-id}}">
-            <navigator>
-                <image mode="widthFix" src="{{item.image_src}}" />
-            </navigator>
-        </swiper-item>
-    </swiper>
-    <view class="navigator">
-        <view class="subnavi">分 类</view>
-        <view class="subnavi">超市购</view>
-        <view class="subnavi">秒杀拍</view>
-        <view class="subnavi">母婴品</view>
+    <view class="index_swiper">
+        <swiper autoplay indicator-active-color circular>
+            <swiper-item wx:for="{{swiperList}}" wx:key="{{goods-id}}">
+                <navigator>
+                    <image mode="widthFix" src="{{item.image_src}}" />
+                </navigator>
+            </swiper-item>
+        </swiper>
+    </view>
+    <view class="index_cate">
+        <navigator wx:for="{{catesList}}" wx:key="name">
+            <image mode="widthFix" src="{{item.image_src}}" />
+        </navigator>
+    </view>
+    <view class="index_floor">
+        <view class="floor_group" wx:for="{{floorList}}" wx:key="floor_title" wx:for-item="item1" wx:for-index="index1">
+            <view class="floor_title">
+                <image mode="widthFix" src="{{item1.floor_title.image_src}}" mode="widthFix" />
+            </view>
+            <view class="floor_list">
+                <navigator wx:for="{{item1.product_list}}" wx:key="name" wx:for-item="item2" wx:for-index="index2">
+                    <image mode="{{index2===0?'widthFix':'scaleToFill'}}" src="{{item2.image_src}}" />
+                </navigator>
+            </view>
+        </view>
     </view>
 </view>
