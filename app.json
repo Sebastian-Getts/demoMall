@@ -4,9 +4,9 @@
     "mall/category/index",
     "mall/cart/index",
     "mall/mine/index",
-    "mall/search/index"
+    "mall/search/index",
+    "mall/goods_list/index"
   ],
-
   "window": {
     "navigationBarBackgroundColor": "#eb4450",
     "navigationBarTextStyle": "white",
@@ -19,9 +19,6 @@
     "enablePullDownRefresh": true,
     "onReachBottomDistance": 50
   },
-  
-    
-
   "tabBar": {
     "color": "#999",
     "selectedColor": "#FF0000",
@@ -34,17 +31,20 @@
         "text": "首页",
         "iconPath": "icons/home.png",
         "selectedIconPath": "/icons/home(1).png"
-      },{
+      },
+      {
         "pagePath": "mall/category/index",
         "text": "分类",
         "iconPath": "/icons/home.png",
         "selectedIconPath": "/icons/instruction(1).png"
-      },{
+      },
+      {
         "pagePath": "mall/cart/index",
         "text": "购物车",
         "iconPath": "/icons/cart.png",
         "selectedIconPath": "/icons/cart(1).png"
-      },{
+      },
+      {
         "pagePath": "mall/mine/index",
         "text": "我的",
         "iconPath": "/icons/mine.png",
@@ -52,7 +52,5 @@
       }
     ]
   },
-  
-    
   "sitemapLocation": "sitemap43.json"
 }

@@ -15,29 +15,29 @@ Page({
   },
 
   getSwiperList() {
-    request({ url: "https://api-hmugo-web.itheima.net/api/public/v1/home/swiperdata" })
+    request({ url: "/home/swiperdata" })
       .then(res => {
         this.setData({
-          swiperList: res.data.message
+          swiperList: res
         })
       })
   },
 
   getCateList() {
-    request({ url: "https://api-hmugo-web.itheima.net/api/public/v1/home/catitems" })
+    request({ url: "/home/catitems" })
       .then(res => {
         this.setData({
-          catesList: res.data.message
+          catesList: res
         })
       })
   },
 
   getFloorList() {
-    request({ url: "https://api-hmugo-web.itheima.net/api/public/v1/home/floordata" })
+    request({ url: "/home/floordata" })
       .then(res => {
         console.log(res.data);
         this.setData({
-          floorList: res.data.message
+          floorList: res
         })
       })
   }
