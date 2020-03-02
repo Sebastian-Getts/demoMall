@@ -1,0 +1,12 @@
+@import "./styles/iconfont.wxss";
+
+/*
+定义主题颜色
+less 中存在 变量 的定义
+wxss和css也支持使用变量
+*/
+
+page{
+    --themeColor:#eb4450;
+    font-size: 28rpx;
+}
