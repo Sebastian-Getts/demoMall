@@ -5,7 +5,8 @@
     "mall/cart/index",
     "mall/mine/index",
     "mall/search/index",
-    "mall/goods_list/index"
+    "mall/goods_list/index",
+    "mall/goods_detail/index"
   ],
   "window": {
     "navigationBarBackgroundColor": "#eb4450",

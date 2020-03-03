@@ -57,9 +57,9 @@
 			"list": [
 				{
 					"id": 0,
-					"name": "商品列表",
-					"pathName": "mall/goods_list/index",
-					"query": "cid=5",
+					"name": "购物车",
+					"pathName": "mall/cart/index",
+					"query": "",
 					"scene": null
 				}
 			]
