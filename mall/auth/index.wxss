@@ -1,0 +1,7 @@
+.auth_wrap {
+    margin-top: 40rpx;
+}
+
+.auth_wrap button {
+    width: 70%;
+}

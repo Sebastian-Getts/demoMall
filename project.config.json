@@ -57,8 +57,8 @@
 			"list": [
 				{
 					"id": 0,
-					"name": "购物车",
-					"pathName": "mall/cart/index",
+					"name": "支付",
+					"pathName": "mall/pay/index",
 					"query": "",
 					"scene": null
 				}

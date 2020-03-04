@@ -7,7 +7,8 @@
     "mall/search/index",
     "mall/goods_list/index",
     "mall/goods_detail/index",
-    "mall/pay/index"
+    "mall/pay/index",
+    "mall/auth/index"
   ],
   "window": {
     "navigationBarBackgroundColor": "#eb4450",
