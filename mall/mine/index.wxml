@@ -1,2 +1,64 @@
-<!--mall/mine/index.wxml-->
-<text>mall/mine/index.wxml</text>
+<view class="user_info_wrap">
+    <view class="user_img_wrap">
+        <open-data class="user_bg" mode="widthFix" type="userAvatarUrl"></open-data>
+        <view class="user_info">
+            <view class="user_icon">
+                <open-data type="userAvatarUrl"></open-data>
+            </view>
+            <open-data class="user_name" type="userNickName"></open-data>
+        </view>
+    </view>
+</view>
+<view class="user_content">
+    <view class="user_main">
+        <view class="history_wrap">
+            <navigator class="single_navi">
+                <view class="his_num">0</view>
+                <view class="his_name">收藏的店铺</view>
+            </navigator>
+            <navigator class="single_navi">
+                <view class="his_num">0</view>
+                <view class="his_name">收藏的店铺</view>
+            </navigator>
+            <navigator class="single_navi">
+                <view class="his_num">0</view>
+                <view class="his_name">收藏的店铺</view>
+            </navigator>
+            <navigator class="single_navi">
+                <view class="his_num">0</view>
+                <view class="his_name">收藏的店铺</view>
+            </navigator>
+        </view>
+        <view class="order_wrap">
+            <view class="order_title">我的订单</view>
+            <view class="order_content">
+                <navigator url="/mall/order/index?type=1">
+                    <view class="iconfont icon-order"></view>
+                    <view class="order_name">全部订单</view>
+                </navigator>
+                <navigator>
+                    <view class="iconfont icon-daifukuan01"></view>
+                    <view class="order_name">待付款</view>
+                </navigator>
+                <navigator>
+                    <view class="iconfont icon-daishouhuo"></view>
+                    <view class="order_name">待收货</view>
+                </navigator>
+                <navigator>
+                    <view class="iconfont icon-icontkcg"></view>
+                    <view class="order_name">退货/退款</view>
+                </navigator>
+            </view>
+        </view>
+        <view class="address_wrap">收货管理</view>
+        <view class="app_info_wrap">
+            <view class="app_info_item app_info_contact">
+                <text>联系客服</text>
+                <text>400-628-1284</text>
+            </view>
+            <view class="app_info_item">意见反馈</view>
+            <view class="app_info_item">关于我们</view>
+        </view>
+        <view class="command">把应用推荐给其他人</view>
+    </view>
+</view>
