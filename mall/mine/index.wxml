@@ -36,15 +36,15 @@
                     <view class="iconfont icon-order"></view>
                     <view class="order_name">全部订单</view>
                 </navigator>
-                <navigator>
+                <navigator url="/mall/order/index?type=2">
                     <view class="iconfont icon-daifukuan01"></view>
                     <view class="order_name">待付款</view>
                 </navigator>
-                <navigator>
+                <navigator url="/mall/order/index?type=3">
                     <view class="iconfont icon-daishouhuo"></view>
                     <view class="order_name">待收货</view>
                 </navigator>
-                <navigator>
+                <navigator url="/mall/order/index?type=4">
                     <view class="iconfont icon-icontkcg"></view>
                     <view class="order_name">退货/退款</view>
                 </navigator>

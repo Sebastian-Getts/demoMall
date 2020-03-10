@@ -26,7 +26,8 @@
 }
 .wholepage .floor_list navigator {
   float: left;
-  width: 33.33%;
+  width: 33%;
+  padding: 1rpx;
 }
 .wholepage .floor_list navigator:nth-last-child(-n+4) {
   height: 27.72711207vw;
